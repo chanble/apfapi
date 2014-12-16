@@ -1,0 +1,87 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"><title>Cloud9 API | C9 Developer</title><link href="/assets/csses/bootstrap.min.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="/assets/csses/font-awesome.css"><link href="/assets/csses/docs.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://yandex.st/highlightjs/7.0/styles/default.min.css"><link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><link type="text/css" rel="stylesheet" href="/css/developer.css"><script src="/js/bootstrap-transition.js"></script><link type='text/css' rel='stylesheet' href='/assets/csses/refguide_overrides.css' /><link type='text/css' rel='stylesheet' href='/assets/csses/api.css' /><script type='text/javascript' src='http://static.railstips.org/orderedlist/demos/quicksilverjs/javascripts/quicksilver.js'></script><script src='/assets/javascripts/bootstrap-tab.js'></script><script src='/assets/javascripts/jquery.livesearch.js'></script><script type='text/javascript' src='/assets/javascripts/clicker.js'></script><script type='text/javascript' src='/assets/javascripts/api.js'></script><script type='text/javascript' src='/assets/javascripts/jquery.cookie.js'></script></head><body data-spy="scroll" data-target=".tocContainer"><div id="topbar" class=""><a id="headerlink" href="/"><img src="/assets/img/c9devlogosmaller.png" /> <img src="/assets/img/c9developer_logo_text.png" width="90" alt="Developer" /></a><div class="toplink"><a href="/start">Start</a></div><div class="toplink"><a href="/guides/index.html">Dev Guides</a></div><div class="toplink active"><a href="/api/index.html">API</a></div><div class="toplink"><a href="/visual/index.html">Visual</a></div><div class="toplink"><a href="/sandbox">Sandbox</a></div><div class="toplink"><a href="/edit-in-cloud9-button">Edit in Cloud9</a></div></div><div id="main_container"><!DOCTYPE html><!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]--><html xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>Cloud9 API Documentation - Live Markup</title><meta name="generator" content="panino-doc-build"><meta name="author" content="Garen J. Torikian"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/csses/bootstrap.min.css"><link rel="stylesheet" href="/assets/csses/prettify.css"><link rel="stylesheet" href="/assets/csses/refguide_overrides.css"><link href="/assets/images/favicon.ico" rel="icon" type="image/x-icon"><link type="text/css" rel="stylesheet" href="//yandex.st/highlightjs/6.1/styles/vs.min.css"><script src="/assets/javascripts/jquery.js"></script><script src="/assets/javascripts/clicker.js"></script><script src="/assets/javascripts/jquery.collapse.js"></script><script src="/assets/javascripts/jquery.cookie.js"></script><script src="/assets/javascripts/bootstrap-dropdown.js"></script><script src="/assets/javascripts/bootstrap-tab.js"></script><script src="/assets/javascripts/jquery-scrollspy.js"></script></head><body><div class="container"><div id="sidebarContainer" class="span3"><div id="sidebar"><input id="live_search_toc"><p id="no_search_results"><span class="number_circle">!</span> No search results</p><h3>Containers<ul class="menu"><li class="menu-item"><a href = 'bar.html' classes='container'>apf.bar</a></li><li class="menu-item"><a href = 'frame.html' classes='container'>apf.frame</a></li><li class="menu-item"><a href = 'modalwindow.html' classes='container'>apf.modalwindow</a></li><li class="menu-item"><a href = 'page.html' classes='container'>apf.page</a></li><li class="menu-item"><a href = 'tab.html' classes='container'>apf.tab</a></li><li class="menu-item"><a href = 'table.html' classes='container'>apf.table</a></li><li class="menu-item"><a href = 'toolbar.html' classes='container'>apf.toolbar</a></li></ul></h3><h3>Form<ul class="menu"><li class="menu-item"><a href = 'button.html' classes='form'>apf.button</a></li><li class="menu-item"><a href = 'checkbox.html' classes='form'>apf.checkbox</a></li><li class="menu-item"><a href = 'dropdown.html' classes='form'>apf.dropdown</a></li><li class="menu-item"><a href = 'label.html' classes='form'>apf.label</a></li><li class="menu-item"><a href = 'progress.html' classes='form'>apf.progress</a></li><li class="menu-item"><a href = 'radiobutton.html' classes='form'>apf.radiobutton</a></li><li class="menu-item"><a href = 'spinner.html' classes='form'>apf.spinner</a></li><li class="menu-item"><a href = 'text.html' classes='form'>apf.text</a></li><li class="menu-item"><a href = 'textbox.html' classes='form'>apf.textbox</a></li></ul></h3><h3>Layout<ul class="menu"><li class="menu-item"><a href = 'hbox.html' classes='layout'>apf.hbox</a></li><li class="menu-item"><a href = 'hsplitbox.html' classes='layout'>apf.hsplitbox</a></li><li class="menu-item"><a href = 'skin.html' classes='layout'>apf.skin</a></li><li class="menu-item"><a href = 'vbox.html' classes='layout'>apf.vbox</a></li><li class="menu-item"><a href = 'vsplitbox.html' classes='layout'>apf.vsplitbox</a></li></ul></h3><h3>Selection<ul class="menu"><li class="menu-item"><a href = 'contextmenu.html' classes='selection'>apf.contextmenu</a></li><li class="menu-item"><a href = 'datagrid.html' classes='selection'>apf.datagrid</a></li><li class="menu-item"><a href = 'item.html' classes='selection'>apf.item</a></li><li class="menu-item"><a href = 'list.html' classes='selection'>apf.list</a></li><li class="menu-item"><a href = 'menu.html' classes='selection'>apf.menu</a></li><li class="menu-item"><a href = 'tree.html' classes='selection'>apf.tree</a></li></ul></h3><h3>Logic<ul class="menu"><li class="menu-item"><a href = 'actions.html' classes='logic'>apf.actions</a></li><li class="menu-item"><a href = 'actiontracker.html' classes='logic'>apf.actiontracker</a></li><li class="menu-item"><a href = 'appsettings.html' classes='logic'>apf.appsettings</a></li><li class="menu-item"><a href = 'model.html' classes='logic'>apf.model</a></li><li class="menu-item"><a href = 'script.html' classes='logic'>apf.script</a></li><li class="menu-item"><a href = 'state.html' classes='logic'>apf.state</a></li><li class="menu-item"><a href = 'stateGroup.html' classes='logic'>apf.stateGroup</a></li></ul></h3><h3>Media<ul class="menu"><li class="menu-item"><a href = 'img.html' classes='media'>apf.img</a></li><li class="menu-item"><a href = 'notifier.html' classes='media'>apf.notifier</a></li></ul></h3><h3>Parsing<ul class="menu"><li class="menu-item"><a href = 'url.html' classes='parser'>apf.url</a></li></ul></h3><h3>Base Classes<ul class="menu"><li class="menu-item"><a href = 'AmlElement.html' classes='baseclass'>apf.AmlElement</a></li><li class="menu-item"><a href = 'AmlNode.html' classes='baseclass'>apf.AmlNode</a></li><li class="menu-item"><a href = 'Anchoring.html' classes='baseclass'>apf.Anchoring</a></li><li class="menu-item"><a href = 'BaseButton.html' classes='baseclass'>apf.BaseButton</a></li><li class="menu-item"><a href = 'BaseList.html' classes='baseclass'>apf.BaseList</a></li><li class="menu-item"><a href = 'BaseSimple.html' classes='baseclass'>apf.BaseSimple</a></li><li class="menu-item"><a href = 'BaseStateButtons.html' classes='baseclass'>apf.BaseStateButtons</a></li><li class="menu-item"><a href = 'BaseTab.html' classes='baseclass'>apf.BaseTab</a></li><li class="menu-item"><a href = 'BaseTree.html' classes='baseclass'>apf.BaseTree</a></li><li class="menu-item"><a href = 'BindingRule.html' classes='baseclass'>apf.BindingRule</a></li><li class="menu-item"><a href = 'Cache.html' classes='baseclass'>apf.Cache</a></li><li class="menu-item"><a href = 'Class.html' classes='baseclass'>apf.Class</a></li><li class="menu-item"><a href = 'DataBinding.html' classes='baseclass'>apf.DataBinding</a></li><li class="menu-item"><a href = 'DelayedRender.html' classes='baseclass'>apf.DelayedRender</a></li><li class="menu-item"><a href = 'DragDrop.html' classes='baseclass'>apf.DragDrop</a></li><li class="menu-item"><a href = 'Focussable.html' classes='baseclass'>apf.Focussable</a></li><li class="menu-item"><a href = 'GuiElement.html' classes='baseclass'>apf.GuiElement</a></li><li class="menu-item"><a href = 'Interactive.html' classes='baseclass'>apf.Interactive</a></li><li class="menu-item"><a href = 'MultiCheck.html' classes='baseclass'>apf.MultiCheck</a></li><li class="menu-item"><a href = 'MultiSelect.html' classes='baseclass'>apf.MultiSelect</a></li><li class="menu-item"><a href = 'MultiselectBinding.html' classes='baseclass'>apf.MultiselectBinding</a></li><li class="menu-item"><a href = 'Presentation.html' classes='baseclass'>apf.Presentation</a></li><li class="menu-item"><a href = 'Rename.html' classes='baseclass'>apf.Rename</a></li><li class="menu-item"><a href = 'Validation.html' classes='baseclass'>apf.Validation</a></li></ul></h3><h3>Terms<ul class="menu"><li><a href="./actionrules.html">Action Rules</a></li><li><a href="./baseclass.html">  Base Classes</a></li><li><a href="./bindingrules.html">Binding Rules</a></li><li><a href="./caret.html">Caret</a></li><li><a href="./datainstruction.html">Data Instructions</a></li><li><a href="./datanode.html">Data Node</a></li><li><a href="./eachnode.html">Each Node</a></li><li><a href="./livemarkup.html">Live Markup</a></li><li><a href="./locking.html">Locking</a></li><li><a href="./propertybinding.html">Property Binding</a></li><li><a href="./smartbinding.html">Smart Binding</a></li></ul></h3></div></div><div id="mainContent" class="span9"><div id="documentation"><div class="title"><h1 class="pageTitle">Live Markup</h1></div><div><p>Live Markup is an extension to Javascript, and it allows APF to have
+a simple consistent syntax for all attribute values and templates.
+Live markup is used for templating, rpc, data binding,
+property binding, formatting and even events.</p>
+<p>Live Markup generates text-output via the default-output of statements,
+and APF maintains knowledge of all properties and data used to create
+this output allowing for a Live update when any of this information changes.
+Nearly all attributes in APF are processed as a live markup &quot; &quot; string
+Some attributes (like events) and <code>&lt;?lm ?&gt;</code> blocks are processed as code.</p>
+<p>LiveMarkup features include:</p>
+<ul>
+<li>inline xpaths</li>
+<li>E4X-like xml literals</li>
+<li>automatic statement/expression output and concat</li>
+<li>code and xpath expansion in-strings</li>
+<li>virtual-sync of async calls</li>
+</ul>
+<h2 id='examples'><a class='heading_anchor' href='#examples'><i class='headerLinkIcon'></i></a>Examples</h2>
+<pre><code class="language-javascript">   <span class="keyword">var</span> x = [folder/@name]; <span class="comment">// value of xpath</span>
+   [folder/@name] = <span class="string">'hello'</span>; <span class="comment">// set an attribute</span>
+   [folder/file] += &lt;file/>; <span class="comment">// add a new file node to folder/file list</span>
+   <span class="keyword">var</span> y = &lt;folder>&lt;file name={x}/>&lt;<span class="regexp">/folder> /</span><span class="regexp">/ e4x-style xml
+   x; /</span><span class="regexp">/automatic output
+   &lt;xml/</span>>; <span class="comment">// automatic output</span>
+   <span class="keyword">if</span>(a)func(); <span class="comment">// automatic output of function returnvalue</span>
+   x = <span class="number">15</span>; <span class="comment">// not outputted, assignments are never output.</span>
+   <span class="keyword">var</span> z = <span class="string">"string with jsvars: {x} and xpath: [folder/@name]"</span>;
+   alert(comm.someRpcCall(x)); <span class="comment">// async call returns sync value</span></code></pre>
+<p>LiveMarkup syntax has one conflict with normal JS syntax; an array of 1 item vs xpath.
+Arrays are recognised if there is atleast one , present: [1,2] and 1 item: [,1]</p>
+<p>Another important feature of LiveMarkup is that its infinitely nestable:
+Outer construct: inner constructs</p>
+<ul>
+<li>string: xpath, code</li>
+<li>xpath: code, xpath(its a sub-xpath when NOT after [)\w] or IS inside &quot;str&quot; or &#39;str&#39; )</li>
+<li>code: xpath, code, string, xml</li>
+<li></li>
+</ul>
+<p>Example of code in xpath in xml in code in string, for the sake of argument:</p>
+<pre><code class="language-javascript"><span class="keyword">var</span> x = <span class="string">"str{&lt;xml id=[xp{y}]/>}"</span></code></pre>
+<p>Since code has an auto-output, it is also possible to use scope { } delimiters holding a value
+and used as an expression.
+var x = {..code with auto output..}
+The ^ character at the beginning of a statement can force &#39;no output&#39; but is very rarely needed.</p>
+<p>It is important to realise that Live Markup is converted to normal Javascript
+in a single compile pass, and does not constitute black-magic.
+As rarely debugging might force you to look at generated code, its useful to know it exists.
+For instance:
+XML literals are turned into normal JS strings: <xml/> becomes &quot;<xml/>&quot;
+in generated code. This is different from E4X where they are special type of object.
+xpaths and operators are turned into functioncalls: [xpath] becomes _val(_n,&quot;xpath&quot;)
+and nesting becomes concatenation: <code>&quot;a{x}b&quot;</code> becomes <code>(&quot;str&quot;+(x)+&quot;str&quot;)</code>.</p>
+<h2 id='live-markup-xpath-reference'><a class='heading_anchor' href='#live-markup-xpath-reference'><i class='headerLinkIcon'></i></a>Live markup xpath reference</h2>
+<p>Different xpath types:</p>
+<ul>
+<li><code>[xpath]</code> - value xpath (string)</li>
+<li><code>%[xpath]</code> - single node</li>
+<li><code>*[xpath]</code> - node set</li>
+<li><code>#[xpath]</code> - number of nodes selected by xpath</li>
+<li><code>$[symbol]</code> - language &#39;xpath&#39;, fetches value from language symbol library</li>
+<li><code>[model::xpath]</code> - xpath value on model with name &#39;model&#39;</li>
+<li><code>[{x}::xpath]</code> - xpath value on xml node or model with js variable x</li>
+<li><code>[{rpc.thing()}::xpath]</code> - xpath value on an rpc call</li>
+<li><code>[xpath] = &#39;value&#39;</code> - assign text-value to xpath (nodeValue = ..)</li>
+<li><code>[xpath] = &lt;xml/&gt;</code> - replace node with right hand xml</li>
+<li><code>[xpath] = xmlNode</code> - replace node with right hand node, removing xmlNode from its old position</li>
+<li><code>[xpath] += &#39;value&#39;</code> - appends text-value to nodeValue</li>
+<li><code>[xpath] += &lt;xml/&gt;</code> - appends the <code>&lt;xml/&gt;</code> after the selected node</li>
+<li><code>[xpath] += xmlNode</code> - appends the node and removes from its old position</li>
+</ul>
+<h2 id='macro-reference'><a class='heading_anchor' href='#macro-reference'><i class='headerLinkIcon'></i></a>Macro reference</h2>
+<ul>
+<li><p><code>localName(n)</code> - returns the localName of the context node or supplied argument</p>
+</li>
+<li><p><code>tagName(n)</code> - tagName of context node or supplied argument</p>
+</li>
+<li><p><code>nodeValue(n)</code> - value of context nore or supplied argment similar to [.]</p>
+</li>
+<li><p><code>local(n){..code..}</code> - a codeblock with a new context node n, n can be xml-string too</p>
+</li>
+<li><p><code>each(set){..code..)</code> iterates over the set. usually used as: each(*[xpath]){}</p>
+</li>
+</ul>
+</div></div><div id="disqus_thread"></div></div></div><div class="push"></div><script src="/assets/javascripts/ux.js"></script></body></html></div><div id="footer" class="span12 center"><p>&copy; 2012 Cloud9 IDE, Inc. All rights reserved.</p></div></body></html>
